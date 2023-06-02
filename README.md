@@ -1,5 +1,10 @@
 # E3WS: Earthquake Early Warning starting from 3 seconds of records on a single station with machine learning
 
+[![Twitter URL](https://img.shields.io/twitter/url/https/twitter.com/pablolarasismo.svg?style=social&label=Follow%20%40pablolarasismo)](https://twitter.com/pablolarasismo)   
+Email: pablo.elara@ieee.org
+
+-----------------------------------------
+
 Welcome to the E3WS. Do you have a station? Start monitoring earthquakes!
 
 If you use this software, you should cite the code as follow:   
@@ -10,14 +15,23 @@ And the paper:
 
 **Pablo Lara, Quentin Bletery, Jean-Paul Ampuero, Adolfo Inza, Hernando Tavera. Earthquake Early Warning starting from 3 seconds of records on a single station with machine learning. Journal of Geophysical Research: Solid Earth. 2023.**
 
-E3WS dependences:
-- `python = 3.9`
+## Installation
+i) git clone https://github.com/PabloELara/E3WS.git
+
+ii) Create E3WS environment
+- Install miniconda3 (https://docs.conda.io/en/latest/miniconda.html) or miniforge3 for Raspberry Pi 4 (https://github.com/conda-forge/miniforge).
+- Create the environment: $conda create -n E3WS
+- Activate enviroment: conda activate E3WS
+
+iii) Install E3WS dependences ('pip' command is your friend):
+- `python = 3.7 - 3.9`
 - `xgboost = 1.6.1`
 - `scipy = 1.8.1`
 - `python-speech-features = 0.6`
 - `scikit-learn = 1.1.1`
 - `PyGeodesy = 23.3.23`
 - `obspy =1.3.0`
+
 
 ## E3WS models
 
@@ -38,4 +52,8 @@ Inside the DET/build_DET/ folder:
 Time to monitor earthquakes.
 An example of how E3WS works is in the 'real_time/' folder. E3WS detected the M5.6 earthquake of January 7, 2022 in Lima, Peru. 
 
-The first E3WS estimate was M5.33 for 3 seconds P-wave. Continuous updates converged to M5.6 and are captured in the results/ folder.
+The first E3WS estimate was M5.33 for 3 seconds P-wave. Continuous updates converged to M5.6 and are placed in the results/ folder.
+
+-----------------------------------------
+
+![map](real_time/E3WS_Lima.png)
