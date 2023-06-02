@@ -9,7 +9,7 @@ Welcome to the E3WS. Do you have a station? Start monitoring earthquakes!
 
 If you use this software, you should cite the code as follow:   
 
-**E3WS, Pablo Lara et al. 2023** [![DOI](https://zenodo.org/badge/637827897.svg)](https://zenodo.org/badge/latestdoi/637827897)
+**E3WS, Pablo Lara et al. 2023, ** [![DOI](https://zenodo.org/badge/637827897.svg)](https://zenodo.org/badge/latestdoi/637827897)
 
 And the paper:   
 
