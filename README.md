@@ -1,6 +1,6 @@
 # E3WS: Earthquake Early Warning starting from 3 seconds of records on a single station with machine learning
 
-Welcome to the E3WS system. Do you have a station? Start monitoring earthquakes!
+Welcome to the E3WS. Do you have a station? Start monitoring earthquakes!
 
 If you use this software, you should cite the code as follow:   
 
