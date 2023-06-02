@@ -41,7 +41,7 @@ For P-phase picking and source characterization (magnitude and location) the mod
 
 For detection, you must create your own model with intrinsic noises of the station to be installed. Relax, it is not difficult.
 
-Inside the DET/build_DET/ folder:
+Inside the 'DET/build_DET/' folder:
 1. Have 10 days (or more) of continuous data to extract the noise (we must reach 900000 samples) and add it to the 'data/' folder.
 2. Eliminate the seismic records in these 10 days. I made an automatic program to remove it ('gen_catag.py'), feel free to make it visual and adapt it with the output format in the 'picked/' folder.
 3. Generate the feature vector with the program 'pb_FV_noise.py', it will create a csv file in the 'atr_noise/' folder.
