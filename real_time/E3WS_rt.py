@@ -68,7 +68,7 @@ if flag_writefile == 1:
 
 	#Write headers
 	f=open(folder_out+'/'+station+'_'+eq_name+'.csv','w')
-	f.write('P_AI_date,starttime,endtime,windows,mag_pred,lat_pred,lon_pred,dis_pred,dep_pred,baz_pred\n')
+	f.write('P_AI_date,starttime,endtime,P-wave(s),mag_pred(M),lat_pred,lon_pred,dis_pred(km),dep_pred(km),baz_pred(°)\n')
 	f.close()
 
 #Reference in time
@@ -250,7 +250,7 @@ for i in range(0, n_traces):
 				if flag_trackmag == True and flag_writefile == 1:
 					f=open(folder_out+'/'+station+'_'+eq_name+'.csv','a')
 					f.write(str(P_AI_date)+','+str(st_pb_reg[0].stats.starttime)+','+str(st_pb_reg[0].stats.endtime)+','+
-						str(st_pb_reg[0].stats.endtime-st_pb_reg[0].stats.starttime)+','+str(MAG_pb_predict)+
+						str(st_pb_reg[0].stats.endtime-st_pb_reg[0].stats.starttime-7)+','+str(MAG_pb_predict)+
 						','+str(eq_lat)+','+str(eq_lon)+','+str(DIS_pb_predict)+','+str(DEP_pb_predict)+
 						','+str(BAZ_pb_predict)+'\n')
 					f.close()
