@@ -30,7 +30,7 @@ iii) Install E3WS dependences ('pip' command is your friend):
 - `python-speech-features = 0.6`
 - `scikit-learn = 1.1.1`
 - `PyGeodesy = 23.3.23`
-- `obspy =1.3.0`
+- `obspy = 1.3.0`
 
 
 ## E3WS models
