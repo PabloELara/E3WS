@@ -232,13 +232,13 @@ for i in range(0, n_traces):
 					BAZ_pb_cos_predict = BAZ_cos_pb[c_mag].predict(FV45)[0]
 					BAZ_pb_sin_predict = BAZ_sin_pb[c_mag].predict(FV45)[0]
 
-				#Cos, Sin, to BAZ angle
-				BAZ_pb_predict = (np.arctan2(BAZ_pb_sin_predict, BAZ_pb_cos_predict)*180/np.pi)
+					#Cos, Sin, to BAZ angle
+					BAZ_pb_predict = (np.arctan2(BAZ_pb_sin_predict, BAZ_pb_cos_predict)*180/np.pi)
 
-				#Get eq.lat, eq.lon
-				eq_lat, eq_lon = pb_utils.pb_getpoint(sta_lat, sta_lon, DIS_pb_predict, BAZ_pb_predict)
-				eq_lat = round(eq_lat, 6)
-				eq_lon = round(eq_lon, 6)
+					#Get eq.lat, eq.lon
+					eq_lat, eq_lon = pb_utils.pb_getpoint(sta_lat, sta_lon, DIS_pb_predict, BAZ_pb_predict)
+					eq_lat = round(eq_lat, 6)
+					eq_lon = round(eq_lon, 6)
 
 				print('-->', P_AI_date, st_pb_reg[0].stats.starttime, st_pb_reg[0].stats.endtime, 
 					st_pb_reg[0].stats.endtime-st_pb_reg[0].stats.starttime, MAG_pb_predict, eq_lat, eq_lon, 
