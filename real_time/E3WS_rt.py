@@ -54,10 +54,7 @@ folder_out = 'results'
 eq_name = 'Canta_M5.6_20220107'
 
 #For BAZ models
-if n_models > 3:
-	n_models_baz = 3
-else:
-	n_models_baz = n_models
+n_models_baz = 1 #Predict just using 3 s of P-wave
 
 #Creating folder
 if flag_writefile == 1:
