@@ -284,7 +284,6 @@ if flag_plot == 1:
                 ax.axes.xaxis.set_ticklabels([])
 
                 ax = fig.add_subplot(312)
-                #PROB_P[0:14] = 0
                 PROB_thr = np.convolve(PROB_P, np.ones(3), 'valid') / 3 #Plot average each 3 consecutive elements of PROB_P
                 #plt.plot(time_AI, PROB_P, '*-', color='black')
                 plt.plot(time_AI[2:], PROB_thr, '*-', color='black')
