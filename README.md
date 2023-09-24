@@ -21,7 +21,7 @@ i) git clone https://github.com/PabloELara/E3WS.git
 ii) Create E3WS environment
 - Install miniconda3 (https://docs.conda.io/en/latest/miniconda.html) or miniforge3 for Raspberry Pi 4 (https://github.com/conda-forge/miniforge).
 - Create the environment: $conda create -n E3WS python=3.7
-- Activate enviroment: conda activate E3WS
+- Activate environment: $conda activate E3WS
 
 iii) Install E3WS dependences ('pip' command is your friend):
 - `python = 3.7 - 3.9`
