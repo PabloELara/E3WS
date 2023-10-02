@@ -50,7 +50,7 @@ Inside the 'DET/build_DET/' folder:
 
 ## Run E3WS
 Time to monitor earthquakes.
-An example of how E3WS works is in the 'real_time/' folder. E3WS detected the M5.6 earthquake of January 7, 2022 in Lima, Peru. The first E3WS estimate was M5.33 for 3 seconds P-wave. Continuous updates converged to M5.6 and are placed in the results/ folder.
+An example of how E3WS works is in the 'real_time/' folder. E3WS detected the M5.6 earthquake of January 7, 2022 in Lima, Peru. The first E3WS estimate was M5.3 based on the first 3 seconds of P-wave. Continuous updates converged to M5.6 and are placed in the results/ folder.
 
 -----------------------------------------
 
