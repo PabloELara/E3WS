@@ -14,6 +14,7 @@ If you use this software, you should cite the code as follow:
 And the paper:   
 
 **Pablo Lara, Quentin Bletery, Jean-Paul Ampuero, Adolfo Inza, Hernando Tavera. Earthquake Early Warning Starting From 3 s of Records on a Single Station With Machine Learning. Journal of Geophysical Research: Solid Earth.**
+
 **E3WS article** [![DOI](https://doi.org/10.1029/2023JB026575)]([https://zenodo.org/badge/latestdoi/637827897](https://doi.org/10.1029/2023JB026575))
 
 ## Installation
