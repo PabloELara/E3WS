@@ -47,7 +47,7 @@ Inside the 'DET/build_DET/' folder:
 1. Have 10 days (or more) of continuous data to extract the noise (we must reach 900000 samples) and add it to the 'data/' folder.
 2. Eliminate the seismic records in these 10 days. I made an automatic program to remove it ('gen_catag.py'). I strongly recommend removing earthquakes from the trace manually, following the format of the '.csv' of the 'picked/' folder.
 3. Generate the feature vector with the program 'pb_FV_noise.py', it will create a csv file in the 'atr_noise/' folder.
-4. Download the earthquake feature vector folder 'atr_eq/' at https://mega.nz/folder/E2UTXIQZ#rH_k9nNrUIgU3D04rzPzzQ
+4. (Updated April, 2026) Download the earthquake feature vector folder 'atr_eq/' at https://drive.google.com/drive/folders/1YkaV11K1OOwO61H2Q1kQd5GYRD_DABoq
 5. Finally, we have our noise ('atr_noise') and earthquake ('atr_eq') attributes. Now we have to train our detector model! Adapt the file pb_save_DET_model.py, and it will create our model in 'saved_models/'.
 
 ## Run E3WS
